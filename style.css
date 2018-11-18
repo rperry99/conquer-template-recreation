@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 html {
   font-family: sans-serif;
   color: #1c1c1c;
@@ -12,13 +15,17 @@ nav ul {
   text-align: center;
   list-style-type: none;
   margin: 0 auto;
-  box-sizing: border-box;
 }
 
 nav ul a:link,
 nav ul a:visited {
   color: #1c1c1c;
   text-decoration: none;
+}
+
+nav ul li {
+  width: 100%;
+  border: solid 1px red;
 }
 
 nav ul li,
@@ -41,6 +48,81 @@ nav ul .links li:not(last-child) {
 
 #logo {
   font-size: 1.3em;
+}
+
+#hero {
+  background: url("img/hero.jpg"); /* Background image from Unsplash from Yoal Desurmont https://unsplash.com/@yoal_des*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  color: white;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+#sign-up {
+  width: 100%;
+  margin: 0 auto;
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+#sign-up h2 {
+  font-size: 1.15em;
+  text-align: center;
+}
+
+#sign-up h2 {
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 5px;
+}
+
+form input {
+  margin-bottom: 5px;
+  border: solid 3px lightgray;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+form input:focus {
+  border: solid 3px darkgray;
+  outline: none;
+}
+
+.news {
+  margin: 15px 0;
+}
+
+#sign-up button {
+  width: 100%;
+  border: none;
+  background-color: #1e90ff;
+  color: white;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 0.9em;
+  border-radius: 5px;
+}
+
+#sign-up button img {
+  width: 4%;
 }
 
 /*Media Queries*/
