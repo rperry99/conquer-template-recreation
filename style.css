@@ -12,6 +12,7 @@ nav ul {
   text-align: center;
   list-style-type: none;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 nav ul a:link,
