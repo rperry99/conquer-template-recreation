@@ -129,7 +129,7 @@ form input:focus {
   border: none;
   background-color: #1e90ff;
   color: white;
-  padding: 5px 0;
+  padding: 15px 0;
   font-weight: bold;
   font-size: 0.9em;
   border-radius: 5px;
@@ -152,6 +152,8 @@ form input:focus {
 
 #stats {
   font-size: 1.2em;
+  margin: 0 auto;
+  width: 100%;
 }
 
 #stats ul span {
@@ -160,6 +162,10 @@ form input:focus {
 
 /*Media Queries*/
 @media screen and (min-width: 704px) {
+  nav {
+    padding: 25px 15px;
+  }
+
   nav ul {
     display: flex;
     justify-content: space-between;
