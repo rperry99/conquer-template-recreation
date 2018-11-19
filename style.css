@@ -137,7 +137,8 @@ form input:focus {
 }
 
 #sign-up button img {
-  width: 4%;
+  width: 10px;
+  padding-left: 5px;
 }
 
 #stats {
@@ -193,5 +194,14 @@ form input:focus {
   nav ul li,
   nav ul .links li:not(last-child) {
     margin-bottom: 0;
+  }
+
+  #sign-up button {
+    font-size: 1.6em;
+  }
+
+  #sign-up button img {
+    width: 16px;
+    padding-left: 10px;
   }
 }
