@@ -50,7 +50,7 @@ nav ul .links li:not(last-child) {
 }
 
 #hero {
-  background: url("img/hero.jpg"); /* Background image from Unsplash from Yoal Desurmont https://unsplash.com/@yoal_des*/
+  background: url("img/hero-gradiant.jpg"); /* Background image from Unsplash from Yoal Desurmont https://unsplash.com/@yoal_des*/
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
